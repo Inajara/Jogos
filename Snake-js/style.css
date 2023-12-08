@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    color: #b6b5ca;
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+}
+
+.start{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 90px;
+    font-family: 'Sarala', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    background: slategray;
+    border-radius: 10px;
+}
+
+.score,
+.instrucoes{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 90px;
+    font-family: 'Sarala', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background: white;
+    margin-left: 450px;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background-color: blue;
+}
+
+.apple{
+    background-color: purple;
+}

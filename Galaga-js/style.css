@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: lightsteelblue;
+}
+
+h1,
+.instrucoes{
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	margin: 20px 300px;
+	font-family: 'Sarala', sans-serif;
+	color: #000;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.results{
+	align-items: center;
+	justify-content: center;
+	font-family: 'Sarala', sans-serif;
+	color: #000;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+	background: #f5f5f5;
+	margin: 20px 300px;
+	border-radius: 5px;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: green;
+	border-radius: 5px;
+}
+
+.laser {
+	background-color: orange;
+	border-radius: 10px;
+}
+
+.boom {
+	background-color: red;
+	border-radius: 5px;
+}
